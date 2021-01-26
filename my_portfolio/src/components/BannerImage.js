@@ -1,10 +1,13 @@
 import React from 'react';
 import './master.css';
+import banner_img from './Banner/portfolio-website-header.jpg';
+
+// console.log(banner_img);
 
 function BannerImage() {
   return (
     <div>
-      <img src="../images/banner.jpg" className="banner" alt="banner" />
+      <img src={banner_img} className="banner" alt="my banner" />
     </div>
   )
 }
