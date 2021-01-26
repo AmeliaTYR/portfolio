@@ -1,6 +1,6 @@
 import React from 'react';
 import './master.css';
-import banner_img from './Banner/portfolio-website-header.jpg';
+import banner_img from './Banner/portfolio-website-header.png';
 
 // console.log(banner_img);
 

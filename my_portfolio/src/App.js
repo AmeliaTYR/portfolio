@@ -6,8 +6,7 @@ import AppContext from './components/AppContext';
 
 import logo from './logo.svg';
 import './App.css';
-
-
+import banner_img from './components/Banner/portfolio-website-header.png';
 
 class App extends React.Component {
 
@@ -49,6 +48,7 @@ class App extends React.Component {
             <div className="App">
               <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
+                {/* <img src={banner_img} className="banner" alt="my banner" /> */}
                 <p>
                   Edit <code>src/App.js</code> and save to reload.
                 </p>
