@@ -6,7 +6,7 @@ import AppContext from './components/AppContext';
 
 import logo from './logo.svg';
 import './App.css';
-import banner_img from './components/Banner/portfolio-website-header.png';
+// import banner_img from './components/Banner/portfolio-website-header.png';
 
 class App extends React.Component {
 
