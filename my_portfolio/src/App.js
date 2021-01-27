@@ -1,5 +1,5 @@
 import React from 'react';
-import BannerImage from './components/BannerImage';
+import BannerImage from './components/Banner/BannerImage';
 import StatusBar from './components/StatusBar';
 import ContentArea from './components/ContentArea';
 import AppContext from './components/AppContext';
