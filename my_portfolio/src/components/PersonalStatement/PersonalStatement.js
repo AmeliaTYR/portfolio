@@ -1,10 +1,10 @@
 import React from 'react';
 import '../master.css';
-import banner_img from './imgs/portfolio-website-header.png';
+import banner_img from './imgs/portfolio-website-header.jpg';
 
 // console.log(banner_img);
 
-function AboutMe() {
+function PersonalStatement() {
   return (
     <div>
       <img src={banner_img} className="banner" alt="my banner" />
@@ -12,4 +12,4 @@ function AboutMe() {
   )
 }
 
-export default AboutMe;
+export default PersonalStatement;

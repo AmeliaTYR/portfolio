@@ -5,6 +5,8 @@ import AlbumMaker from './AlbumMaker';
 import ContentAreaContext from './ContentAreaContext';
 import LayeredDiv from './LayeredDiv';
 
+import Projects from './Projects/Projects';
+
 class ContentArea extends React.Component {
 
   constructor(props) {
@@ -30,7 +32,11 @@ class ContentArea extends React.Component {
           <UserManager logInCallback={ this.handleLogInChange }
           showMessageArea = { userInfo => ( <MessageArea userInfo={userInfo} /> ) } />
           <AlbumMaker />
-          <LayeredDiv />
+
+          {/* <WorkExperience /> */}
+          <Projects />
+          {/* <Education /> */}
+          {/* <Certificates /> */}
         </div>
 
         </ContentAreaContext.Provider>

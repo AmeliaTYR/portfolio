@@ -1,0 +1,16 @@
+{
+  "work-experiences" :
+  [
+    {
+      "src"      : "berlin.jpg",
+      "title"  : "The Heart of Europe",
+      "description" : "Berlin, Germany"
+    },
+
+    {
+      "src"      : "london.jpg",
+      "title"  : "Trafalgar Square",
+      "description" : "London, UK"
+    }
+  ]
+}

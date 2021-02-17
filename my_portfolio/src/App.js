@@ -4,6 +4,8 @@ import StatusBar from './components/StatusBar';
 import ContentArea from './components/ContentArea';
 import AppContext from './components/AppContext';
 
+import WorkExperience from './components/WorkExperience/WorkExperience'
+
 import logo from './logo.svg';
 import './App.css';
 // import banner_img from './components/Banner/portfolio-website-header.png';
@@ -35,20 +37,30 @@ class App extends React.Component {
         return (
   
             <AppContext.Provider value={ this }>
+
+              {/* create a div to store a cover image (see how they make it cover the whole screen until scroll with
+                the scroll down option) here */}
   
             <div className="App">
-              <BannerImage />
+              {/* To replace the banner image with the overview segment with the automated scrolling display */}
+              <BannerImage /> 
+              
               <div>
                 <h1>Welcome to My Photo Journal</h1>
               </div>
+
               <StatusBar />
-              <ContentArea />
+              
+              <ContentArea /> 
+              {/* Add a segment with contacts and links to stuff at the bottom */}
+
+              
+
             </div>
 
             <div className="App">
               <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
-                {/* <img src={banner_img} className="banner" alt="my banner" /> */}
                 <p>
                   Edit <code>src/App.js</code> and save to reload.
                 </p>
