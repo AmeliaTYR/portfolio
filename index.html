@@ -656,7 +656,15 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/my_edits.js"></script>
+			<script type="text/javascript" src="assets/js/my_edits.js"></script>
 
+			<script>
+				function jumpAndClose (jumpToLink) {
+					document.getElementById(jumpToLink).scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+					var x = document.getElementById("myLinks");
+					x.style.display = "none"; 
+					console.log("Jump to " + jumpToLink)
+				}
+			</script>
 	</body>
 </html>
