@@ -90,6 +90,9 @@ html {
   display: none;
 }
 
+div.topnav div.myLinks.closed { display: none; }
+div.topnav div.myLinks.open { display: block; }
+
 /* Style navigation menu links */
 .topnav a {
   color: white;
@@ -120,3 +123,5 @@ html {
   background-color: rgb(0, 90, 75);
   color: white;
 }
+
+

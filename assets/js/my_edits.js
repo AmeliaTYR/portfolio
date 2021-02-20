@@ -95,3 +95,21 @@ function myFunction() {
     x.style.display = "block";
   }
 }
+
+/* 
+Closing the navbar menu on click
+*/
+
+// $('div.topnav div.myLinks').on('click', function(e) {
+
+//   e.preventDefault();
+
+//   $(this).closest('div.myLinks').removeClass('open').addClass('closed');
+//   $('section').removeClass('active').filter( $(this).attr('href') ).addClass('active');
+// });
+
+function jumpAndClose (jumpToLink) {
+  document.getElementById(jumpToLink).scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+  var x = document.getElementById("myLinks");
+  x.style.display = "none"; 
+}
