@@ -112,4 +112,5 @@ function jumpAndClose (jumpToLink) {
   document.getElementById(jumpToLink).scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
   var x = document.getElementById("myLinks");
   x.style.display = "none"; 
+  console.log("Jump to" + jumpToLink)
 }
