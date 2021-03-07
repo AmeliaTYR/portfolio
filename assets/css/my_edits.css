@@ -2,7 +2,7 @@
 	tooltip code from w3schools.com
 */
 
-/* Tooltip container */
+/* Tooltip container version 1*/
 .tooltip {
     position: relative;
     display: inline-block;
@@ -29,9 +29,47 @@
     visibility: visible;
   }
 
+/* Tooltip container version 2*/
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip2 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip2 .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip2:hover .tooltiptext {
+  visibility: visible;
+}
+
 /*
 	top sticky navbar code from w3schools.com
 */
+
 /* Style the navbar */
 #navbar {
   overflow: hidden;
@@ -125,3 +163,20 @@ div.topnav div.myLinks.open { display: block; }
 }
 
 
+/* Icons2 */
+
+ul.icons2 {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+  ul.icons2 li {
+    display: block;
+    float: left;
+    padding: 0 0.75rem 0 0;
+  }
+
+    ul.icons2 li:last-child {
+      padding-right: 0;
+    }
